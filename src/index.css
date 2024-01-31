@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #E6E6FA;
+    justify-content: center;
+    align-items: center;
+}

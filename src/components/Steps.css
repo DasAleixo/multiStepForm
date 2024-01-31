@@ -1,0 +1,11 @@
+#steps::after{
+    content: '';
+    top: 18px;
+    border-bottom: 1px  solid #ccc;
+    width: 380px;
+    position: absolute;
+}
+
+.passo {
+    z-index: 1;
+}
