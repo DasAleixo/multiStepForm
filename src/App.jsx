@@ -37,7 +37,7 @@ function App() {
   const { indexStep, currentComponent, changeStep, isLastStep, isFirstStep } = useForm(formComponents);
 
   return (
-    <div className='p-8 max-w-md sm:max-w-2xl' id='app'>
+    <div className='p-8 max-w-sm sm:max-w-2xl' id='app'>
       <div id='header' className="text-center mb-8">
         <h2 className="text-3xl font-bold mb-6">Deixe sua avaliação</h2>
         <p className="text-zinc-500 text-sm2">Ficamos felizes com a sua compra, utilize o formulário abaixo para avaliar o produto</p>
